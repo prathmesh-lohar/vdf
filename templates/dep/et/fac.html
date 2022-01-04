@@ -1,0 +1,132 @@
+
+{% extends 'base.html' %}
+
+{% block title %}
+FACULTIES-ELECTRICAL ENGINEERING{% endblock  %}
+
+{% block main %}
+
+{% load static %}
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <div class="col-fluid text-center my-4">
+        <table class="table">
+            <tr>
+                <th scope="col"><b>sr. no</b></th>
+                <th scope="col"><b>Name</b></th>
+
+                <th scope="col"><b>Designation</b></th>
+                <th scope="col"><b>Qualification</b></th>
+                <th scope="col"><b>Experience</b></th>
+                <th scope="col"><b>Email Address</b></th>
+                <th scope="col"><b>Area of Specialization</b></th>
+                <th scope="col"><b>Image</b></th>
+            </tr>
+
+            <tr>
+                <td scope="row">1</td>
+                <td> PROF. F. M. GHANTE (HOD)</td>
+                <td>Asso.Prof</td>
+                <td> M.E.(E&TC), B.E.(E&TC),</td>
+                <td> 07 Years
+                </td>
+                <td> firdosghante@gmail.com</td>
+                <td> Embedded Systems, Image Processing.</td>
+                <td> <img src="{% static 'dept/et/1.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">2</td>
+                <td> PROF. BHISE S. W. </td>
+                <td>Asso.Prof</td>
+                <td>M.E.(CE),B.E.(ECT)</td>
+                <td>13 Years</td>
+                <td> sunilbhise@aol.in</td>
+                <td>Communication</td>
+                <td> <img src="{% static 'dept/et/2.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">3</td>
+                <td>PROF. WAGHMARE M. A. </td>
+                <td>Asso.Prof</td>
+                <td>M.E.(EC),B.E.(EC),</td>
+                <td> 09 Years</td>
+                <td>mwaghmare43@gmail.com</td>
+                <td>Control System, Microwave.</td>
+                <td> <img src="{% static 'dept/et/3.jpg' %}">
+                </td>
+            </tr>
+
+            <tr>
+                <td scope="row">4</td>
+                <td> PROF. RAOBAWALE B. A. </td>
+                <td>Asso.Prof</td>
+                <td> M.E.(EC),B.E. (EC)
+                </td>
+                <td> 08 Years</td>
+                <td> raobawale.balaji@gmail.com</td>
+                <td>Communication</td>
+                <td> <img src="{% static 'dept/et/4.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">5</td>
+                <td> PROF. FUTANE S. S. </td>
+                <td>Asso.Prof</td>
+                <td> M.Tech.(EC), B.Tech.(Electronics).</td>
+                <td> 06 Years</td>
+                <td>shaileshfutane@gmail.com
+                </td>
+                <td> VLSI</td>
+                <td> <img src="{% static 'dept/et/5.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">6</td>
+                <td> PROF. GORE R.V. </td>
+                <td>Asso.Prof</td>
+                <td> M.Tech.(EC), B.E. (ECT).
+                </td>
+                <td> 05 years</td>
+                <td> Rajashrigore20@gmail.com</td>
+                <td>Image Processing</td>
+                <td> <img src="{% static 'dept/et/6.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">7</td>
+                <td> PROF. PATIL V. S. </td>
+                <td> ASST. </td>
+                <td> M.E.(Electronics)
+                </td>
+                <td> 10 Years</td>
+                <td>varun.patil28@gmail.com</td>
+                <td>Signals and System, IoT</td>
+                <td> <img src="{% static 'dept/et/7.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">8</td>
+                <td> ASST. PROF. HOANRAO S. B.
+                </td>
+                <td> ASST. PROF. </td>
+                <td> Ph.D(Electronics)*, M.E.(E&TC)
+                </td>
+                <td> 11 Years</td>
+                <td>honrao.sachin@gmail.com</td>
+                <td>microprocessors and microcontrollers ,Electronics </td>
+                <td> <img src="{% static 'dept/et/8.jpg' %}">
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+{% endblock %}

@@ -1,0 +1,90 @@
+{% extends 'base.html' %} {% block title %} LIBRARY {% endblock %} {% block main %}
+
+<div class="container">
+
+
+    <table class="table my-4">
+        <tbody>
+            <tr class="su-even">
+                <td>1</td>
+                <td>TOTAL NO. OF BOOKS</td>
+                <td>10357</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>TOTAL NO. OF TITLES</td>
+                <td>2953</td>
+            </tr>
+            <tr class="su-even">
+                <td>3</td>
+                <td>TOTAL NO. OF SOCIAL WELFARE BOOKS</td>
+                <td>1080</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>NO. OF INTERNATIONAL JOURNALS</td>
+                <td>5</td>
+            </tr>
+            <tr class="su-even">
+                <td>5</td>
+                <td>NO. OF NATIONAL JOURNALS</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>E-GRANTHALAYA SOFTWARE</td>
+                <td>E-LIBRARY</td>
+            </tr>
+            <tr class="su-even">
+                <td>7</td>
+                <td>Total Books Cost</td>
+                <td>Rs.4418895/-</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>1)Book Rack-14,<br>2)Newspaper stand-2,<br>3)Cup Board-2</td>
+                <td>Rs.606463/-</td>
+            </tr>
+            <tr class="su-even">
+                <td>9</td>
+                <td>NO. OF NON-BOOK MATERIALS (CD,DVD, PCB,)</td>
+                <td>542</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</div>
+
+{% load static %}
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-thumbnail border-0" src="{% static 'pages/l1.jpg' %}">
+        </div>
+
+        <div class="col-md-4">
+            <img class="img-thumbnail border-0" src="{% static 'pages/l2.jpg' %}">
+        </div>
+
+        <div class="col-md-4">
+            <img class="img-thumbnail border-0" src="{% static 'pages/l3.jpg' %}">
+        </div>
+
+        <div class="col-md-4">
+            <img class="img-thumbnail border-0" src="{% static 'pages/l4.jpg' %}">
+        </div>
+
+        <div class="col-md-4">
+            <img class="img-thumbnail border-0" src="{% static 'pages/l5.jpg' %}">
+        </div>
+        <div class="col-md-4">
+            <img class="img-thumbnail border-0" src="{% static 'pages/l6.jpg' %}">
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

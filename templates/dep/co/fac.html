@@ -1,0 +1,99 @@
+
+
+{% extends 'base.html' %}
+
+{% block title %}
+FACULTIES-MECHANICAL ENGINEERING{% endblock  %}
+
+{% block main %}
+
+{% load static %}
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <div class="col-fluid text-center my-4">
+        
+
+        <table class="table">
+            <tr>
+                <th scope="col"><b>sr. no</b></th>
+                <th scope="col"><b>Name</b></th>
+
+                <th scope="col"><b>Designation</b></th>
+                <th scope="col"><b>Qualification</b></th>
+                <th scope="col"><b>Experience</b></th>
+                <th scope="col"><b>Email Address</b></th>
+                <th scope="col"><b>Area of Specialization</b></th>
+                <th scope="col"><b>Image</b></th>
+            </tr>
+
+            <tr>
+                <td scope="row">1</td>
+                <td> PROF. WAKHARE YASHWANT R.(HOD)</td>
+                <td>Asso.Prof</td>
+                <td>M.E.(CNE)</td>
+                <td> Teaching: 05 Years<br>Industry: 01 Year</br>
+                </td>
+                <td> wakhareyr@gmail.com</td>
+                <td>Computer Networking</td>
+                <td> <img src="{% static 'dept/co/1.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">2</td>
+                <td> PROF. BHOSALE JYOTI D.</td>
+                <td>Asso.Prof</td>
+                <td> PhD, M.E.(CNE),PGDDM</td>
+                <td> 05 Years</td>
+                <td> bhosale.jyoti3@gmail.com</td>
+                <td>Computer Networking</td>
+                <td> <img src="{% static 'dept/co/2.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">3</td>
+                <td> PROF. BHOSLE USHAKIRAN V. </td>
+                <td>Asso.Prof</td>
+                <td> M.E.(CSIT)</td>
+                <td> 04 years</td>
+                <td>ushabhosle26@gmail.com</td>
+                <td>Computer Science & Information Technology</td>
+                <td> <img src="{% static 'dept/co/3.jpg' %}">
+                </td>
+            </tr>
+
+            <tr>
+                <td scope="row">4</td>
+                <td> PROF. PATANE ASHWINI G.</td>
+                <td>Asso.Prof</td>
+                <td>M.E.(CSIT)
+                </td>
+                <td> Teaching: 04 Years</td>
+                <td>pataneashwini16@gmail.com</td>
+                <td>Computer Science & Information Technology</td>
+                <td> <img src="{% static 'dept/co/4.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">5</td>
+                <td> PROF. BONDGE KAMAKSHI S.</td>
+                <td>Asso.Prof</td>
+                <td> M.Tech.(CSE)</td>
+                <td> 07 Years</td>
+                <td>kamakshibondge8@gmail.com</td>
+                <td>Computer Science & Engineering</td>
+                <td> <img src="{% static 'dept/co/5.jpg' %}">
+                </td>
+            </tr>
+
+
+        </table>
+
+    </div>
+
+{% endblock %}

@@ -1,0 +1,107 @@
+
+{% extends 'base.html' %}
+
+{% block title %}
+FACULTIES-ELECTRICAL ENGINEERING{% endblock  %}
+
+{% block main %}
+
+{% load static %}
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <div class="col-fluid text-center my-4">
+        
+        <table class="table">
+            <tr>
+                <th scope="col"><b>sr. no</b></th>
+                <th scope="col"><b>Name</b></th>
+
+                <th scope="col"><b>Designation</b></th>
+                <th scope="col"><b>Qualification</b></th>
+                <th scope="col"><b>Experience</b></th>
+                <th scope="col"><b>Email Address</b></th>
+                <th scope="col"><b>Area of Specialization</b></th>
+                <th scope="col"><b>Image</b></th>
+            </tr>
+
+            <tr>
+                <td scope="row">1</td>
+                <td>PROF. RAJESH U. INGALE (HOD)</td>
+                <td>Asso.Prof</td>
+                <td>M.E.(EPS)</td>
+                <td> 23 years
+                </td>
+                <td>rajeshingale35@gmail.com</td>
+                <td> Electrical Power System, Power Quality</td>
+                <td> <img src="{% static 'dept/el/1.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">2</td>
+                <td> PROF. SHIVKUMAR S MARKUNDELE</td>
+                <td>Asso.Prof</td>
+                <td> M.Tech.(PE) </td>
+                <td> 04 years</td>
+                <td> rashivkumarsir99@gmail.com</td>
+                <td> Power electronics, electrical circuit analysis etc…</td>
+                <td> <img src="{% static 'dept/el/2.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">3</td>
+                <td> PROF. SHRIDHAR S. PATIL </td>
+                <td>Asso.Prof</td>
+                <td> M.Tech. </td>
+                <td> 04 years</td>
+                <td></td>
+                <td> Industrial Automation</td>
+                <td> <img src="{% static 'dept/el/3.jpg' %}">
+                </td>
+            </tr>
+
+            <tr>
+                <td scope="row">4</td>
+                <td> PROF. SUPRIYA S. MORE</td>
+                <td>Asso.Prof</td>
+                <td>M.Tech. (CSE)
+                </td>
+                <td> 03 years</td>
+                <td>supriya.more78@gmail.com</td>
+                <td>Control System Engineering</td>
+                <td> <img src="{% static 'dept/el/4.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">5</td>
+                <td> PROF. SUPRIYA A. PURI </td>
+                <td>Asso.Prof</td>
+                <td> M.E.(CSE) </td>
+                <td> 04 years</td>
+                <td>supriyapuri1992@gmail.com</td>
+                <td>Control System Engineering</td>
+                <td> <img src="{% static 'dept/el/5.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">6</td>
+                <td> PROF. AFROZ P SAYYAD </td>
+                <td>Asso.Prof</td>
+                <td>M.E.(CSE) </td>
+                <td> 04 years</td>
+                <td>dafroz@yahoo.com</td>
+                <td>Control System Engineering</td>
+                <td> <img src="{% static 'dept/el/6.jpg' %}">
+                </td>
+            </tr>
+
+
+        </table>
+
+    </div>
+{% endblock %}

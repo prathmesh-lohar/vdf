@@ -1,0 +1,121 @@
+
+
+{% extends 'base.html' %}
+
+{% block title %}
+FACULTIES-MECHANICAL ENGINEERING{% endblock  %}
+
+{% block main %}
+
+{% load static %}
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+
+    <div class="col-fluid text-center my-4">
+        <table class="table">
+            <tr>
+                <th scope="col"><b>sr. no</b></th>
+                <th scope="col"><b>Name</b></th>
+
+                <th scope="col"><b>Designation</b></th>
+                <th scope="col"><b>Qualification</b></th>
+                <th scope="col"><b>Experience</b></th>
+                <th scope="col"><b>Email Address</b></th>
+                <th scope="col"><b>Area of Specialization</b></th>
+                <th scope="col"><b>Image</b></th>
+            </tr>
+
+            <tr>
+                <td scope="row">1</td>
+                <td> PROF. BIRAJDAR M. D.(HOD)</td>
+                <td>Asso.Prof</td>
+                <td>BE(Mechanical Engineering), ME(Machine Design)</td>
+                <td> Industry- 02 years Teaching- 08 years
+                </td>
+                <td> birajdarmd@gmail.com</td>
+                <td> Machine Design</td>
+                <td> <img src="{% static 'dept/me/1.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">2</td>
+                <td> PROF. DESHMUKH A. V.</td>
+                <td>Asso.Prof</td>
+                <td> M.Tech. (Mechanical Engineering)</td>
+                <td> 07 years</td>
+                <td> deshmukhamit02381@gmail.com</td>
+                <td>CAD/CAM</td>
+                <td> <img src="{% static 'dept/me/2.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">3</td>
+                <td> PROF. KOLEKAR D. S.</td>
+                <td>Asso.Prof</td>
+                <td>ME(Design Engineering)
+                </td>
+                <td> 03 years 09 months</td>
+                <td>kolekardjs@gmail.com</td>
+                <td>Mechanical Design engineering</td>
+                <td> <img src="{% static 'dept/me/3.jpg' %}">
+                </td>
+            </tr>
+
+            <tr>
+                <td scope="row">4</td>
+                <td> PROF. THORAT K. B. </td>
+                <td>Asso.Prof</td>
+                <td>B.E.(Mechanical)
+                </td>
+                <td> 05 years</td>
+                <td> kiranthorat990@gmail.com</td>
+                <td>Manufacturing Technology</td>
+                <td> <img src="{% static 'dept/me/4.jpeg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">5</td>
+                <td> PROF. MUNDE G. G.</td>
+                <td>Asso.Prof</td>
+                <td> M-Tech</td>
+                <td> 07 Years</td>
+                <td>gopalmunde07@gmail.com</td>
+                <td>Thermal Engineering</td>
+                <td> <img src="{% static 'dept/me/5.jpeg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">6</td>
+                <td> BALAJI BHIMASHANKAR NAIK</td>
+                <td>WORKSHOP INSTRUCTOR</td>
+                <td> ITI Motar Mechanical</td>
+                <td> 10 Years</td>
+                <td>balajibnaik@gmail.com</td>
+                <td> Mechatronics</td>
+                <td> <img src="{% static 'dept/me/6.jpg' %}">
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">7</td>
+                <td>PAWAR KAILASH SAWAIRAM</td>
+                <td>WORKSHOP INSTRUCTOR</td>
+                <td> ITI Motar Mechanical</td>
+                <td> 10 Years</td>
+                <td>kailashsp11@gmail.com</td>
+                <td> HSC ITI ncvt. In fitter</td>
+                <td> <img src="{% static 'dept/me/7.jpg' %}">
+                </td>
+            </tr>
+
+
+
+        </table>
+
+    </div>
+{% endblock %}
